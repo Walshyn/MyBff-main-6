@@ -17,7 +17,7 @@
 		00D010E028FEA3D10001DAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D010DE28FEA3D10001DAD9 /* Main.storyboard */; };
 		00D010E228FEA3D20001DAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D010E128FEA3D20001DAD9 /* Assets.xcassets */; };
 		00D010E528FEA3D20001DAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D010E328FEA3D20001DAD9 /* LaunchScreen.storyboard */; };
-		2DA1649929002F030060EAA0 /* SentimentMdlFull.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2DA1649829002F030060EAA0 /* SentimentMdlFull.mlmodel */; };
+		F155EF2629003CE600F99D21 /* sentimentMdl.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F155EF2529003CE600F99D21 /* sentimentMdl.mlmodel */; };
 		F43FC8692900151400A6DC65 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43FC8682900151400A6DC65 /* ChatViewController.swift */; };
 		F4CC2FD628FEED7400C011F5 /* NetworkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC2FD528FEED7400C011F5 /* NetworkSettings.swift */; };
 		F4ED066128FFE72200C3B61B /* FriendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED066028FFE72200C3B61B /* FriendManager.swift */; };
@@ -34,7 +34,7 @@
 		00D010E128FEA3D20001DAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D010E428FEA3D20001DAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00D010E628FEA3D20001DAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DA1649829002F030060EAA0 /* SentimentMdlFull.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentMdlFull.mlmodel; sourceTree = "<group>"; };
+		F155EF2529003CE600F99D21 /* sentimentMdl.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sentimentMdl.mlmodel; sourceTree = "<group>"; };
 		F43FC8682900151400A6DC65 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		F4CC2FD528FEED7400C011F5 /* NetworkSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSettings.swift; sourceTree = "<group>"; };
 		F4ED066028FFE72200C3B61B /* FriendManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendManager.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		00D010D728FEA3D10001DAD9 /* MyBff */ = {
 			isa = PBXGroup;
 			children = (
-				2DA1649829002F030060EAA0 /* SentimentMdlFull.mlmodel */,
+				F155EF2529003CE600F99D21 /* sentimentMdl.mlmodel */,
 				F4ED066028FFE72200C3B61B /* FriendManager.swift */,
 				F4CC2FD528FEED7400C011F5 /* NetworkSettings.swift */,
 				00D010D828FEA3D10001DAD9 /* AppDelegate.swift */,
@@ -171,10 +171,10 @@
 				00D010DD28FEA3D10001DAD9 /* ViewController.swift in Sources */,
 				F4ED066128FFE72200C3B61B /* FriendManager.swift in Sources */,
 				F4CC2FD628FEED7400C011F5 /* NetworkSettings.swift in Sources */,
-				2DA1649929002F030060EAA0 /* SentimentMdlFull.mlmodel in Sources */,
 				0010DD7728FED5E8006D1685 /* Sentiments.swift in Sources */,
 				00D010D928FEA3D10001DAD9 /* AppDelegate.swift in Sources */,
 				00D010DB28FEA3D10001DAD9 /* SceneDelegate.swift in Sources */,
+				F155EF2629003CE600F99D21 /* sentimentMdl.mlmodel in Sources */,
 				00C705BA28FFDF0600FA5744 /* SentimentsRecognizer.swift in Sources */,
 				F43FC8692900151400A6DC65 /* ChatViewController.swift in Sources */,
 			);
