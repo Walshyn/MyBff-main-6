@@ -40,7 +40,9 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate 
         
         DispatchQueue.main.asyncAfter(deadline: .now()+3){
             self.messages.removeLast()
-            let message3 = Message(sender: self.ami, messageId: UUID().uuidString, sentDate: Date(), kind: .text(self.sendMessageGetResponse(message: text)))
+            let response = self.sendMessageGetResponse(message: text)
+            let message3 = Message(sender: self.ami, messageId: UUID().uuidString, sentDate: Date(), kind: .text(response))
+            self.delegate?.chatDidSend(text: response)
             self.messages.append(message3)
             self.messagesCollectionView.reloadData()
             self.messagesCollectionView.scrollToLastItem(animated: true)

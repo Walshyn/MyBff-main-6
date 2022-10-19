@@ -9,7 +9,7 @@ import Alamofire
 
 class NetworkSettings{
     
-    private let apiKey : String = "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" // Enter your apiKey
+    private let apiKey : String = "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" // Enter your apiKey
     
     private let openAIURL = URL(string: "https://api.openai.com/v1/completions")
     
