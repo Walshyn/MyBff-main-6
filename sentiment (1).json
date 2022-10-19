@@ -1,524 +1,746 @@
-//JSON File
-
 [
     {
         "text": "J'ai bien mangé",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'ai mal mangé",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'ai mangé",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je suis ravi",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je ne suis pas ravi",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je suis bien",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis mal",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'ai raté mon examen",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je suis assis",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "J'ai réussi mon examen",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis debout",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je suis satisfait",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je ne suis pas satisfait",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je n'ai pas d'avis",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je pars en vacances",
-        "label": "postive"
-    }, 
-	{
+        "label": "positive"
+    },
+    {
         "text": "Je ne pars pas en vacances",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime la bière",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas la bière",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime le vin",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas le vin",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je ne bois pas d'alcool",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je te trouve joli",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je te trouve laid",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime la vie",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas la vie",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Tu n'es pas gentil",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Tu es comme tu es",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Tu es gentil",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "La vie ne vaut rien",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "La vie est belle",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis de bonne humeur",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis de mauvaise humeur",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Ca va",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je suis plein d'énergie",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis en manque d'énergie",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Quelle belle journée",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Quel beau temps",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Quelle mauvaise journée",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Une journée comme une autre",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Tu es génial",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Quel mauvais temps",
         "label": "negative"
     },
-	{
+    {
         "text": "Tu es nul",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'ai un bon travail",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis excité",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'ai un mauvais travail",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Tu es bête",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je suis ravi",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je ne suis pas ravi",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je suis très satisfait",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Mon père est mort",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Ma mère est morte",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Mon père est ici",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Mon père est heureux",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Mon père est malheureux",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Ma mère est heureuse",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'ai gagné à la lotterie",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'ai perdu à la lotterie",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je n'ai pas joué à la lotterie",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Elle est fantastique",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Elle n'est vraiment pas fantastique",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime les fleurs",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'aime les gens",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas les fleurs",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas les gens",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime les fêtes",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas les fêtes",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime les cadeaux",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'aime les surprises",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas les surprises",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Où es-tu?",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Où vas-tu?",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je hais les autres",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'aime les autres",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Youpie",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Aïe",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "La voiture est dans le garage",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "La voiture est belle",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "La voiture est en panne",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Tu as un beau sourire",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Tu as de beaux yeux",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Tu es laide",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'attends",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je suis servi",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je ne suis pas servi",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Nous sommes amis",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Vous êtes amis",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'ai pas d'amis",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Rien n'est parfait",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "C'est parfait",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Ce n'est pas parfait",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'adore les légumes",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je déteste les légumes",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'adore manger",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je déteste manger",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'ai fais un beau rêve",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'ai fait un cauchemar",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "J'adore les filles",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "J'adoer les garçons",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je déteste les filles",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je déteste les garçons",
         "label": "negative"
     },
-	{
+    {
         "text": "Je déteste conduire",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "J'aime conduire",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je n'aime pas conduire",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Tu vas gagner",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Tu vas y arriver",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Tu vas perdre",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Bonjour",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Elle est splendide",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Elle est misérable",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Ils sont géniaux",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Vous êtes superbes",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Vous êtes cons",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Vous allez à la pharmacie",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Vous êtes forts",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Vous êtes faibles",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Ton corps est beau",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Ton corps est laid",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "La ferme",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Tu es neutre",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je vis bien",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je vis mal",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Quelle bonne nouvelle",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Quelle belle pensée",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Quelle mauvaise nouvelle",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "Je ne suis pas d'accord",
         "label": "neutral"
-    }, 
-	{
+    },
+    {
         "text": "Je suis super",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis effroyable",
         "label": "negative"
-    }, 
-	{
+    },
+    {
         "text": "La salade sent bon",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je ne suis pas endetté",
         "label": "positive"
-    }, 
-	{
+    },
+    {
         "text": "Je suis endetté",
         "label": "negative"
-   }
+    },
+    {
+        "text": "Je t'aime",
+        "label": "positive"
+    },
+    {
+        "text": "Je te conchie",
+        "label": "negative"
+    },
+    {
+        "text": "Je te déteste",
+        "label": "negative"
+    },
+    {
+        "text": "Je te negatif",
+        "label": "negative"
+    },
+    {
+        "text": "va mourir",
+        "label": "negative"
+    },
+    {
+        "text": "Je t'adore",
+        "label": "positive"
+    },
+    {
+        "text": "J'aime",
+        "label": "positive"
+    },
+    {
+        "text": "bouseux",
+        "label": "negative"
+    },
+    {
+        "text": "J'adore'",
+        "label": "positive"
+    },
+    {
+        "text": "J'aime la vie'",
+        "label": "positive"
+    },
+    {
+        "text": "tu es très beau",
+        "label": "positive"
+    },
+    {
+        "text": "tu es moche",
+        "label": "negative"
+    },
+    {
+        "text": "tu es belle",
+        "label": "positive"
+    },
+    {
+        "text": "tu sens le chou",
+        "label": "negative"
+    },
+    {
+        "text": "tu vas y arriver",
+        "label": "positive"
+    },
+    {
+        "text": "tu n'y arriveras jamais",
+        "label": "negative"
+    },
+    {
+        "text": "Je l'ai vu la semaine dernière",
+        "label": "neutral"
+    },
+    {
+        "text": "Je pars en vacances",
+        "label": "positive"
+    },
+    {
+        "text": "Il y a grève des bus",
+        "label": "negative"
+    },
+    {
+        "text": "Je t'appelle",
+        "label": "neutral"
+    },
+    {
+        "text": "tuer son voisin",
+        "label": "negative"
+    },
+    {
+        "text": "à la mer",
+        "label": "positive"
+    },
+    {
+        "text": "à la montagne",
+        "label": "positive"
+    },
+    {
+        "text": "t'es un trouduc",
+        "label": "negative"
+    },
+    {
+        "text": "Barlos",
+        "label": "negative"
+    },
+    {
+        "text": "Baraki",
+        "label": "negative"
+    },
+    {
+        "text": "t'es jolie",
+        "label": "positive"
+    },
+    {
+        "text": "tu sens le chien mouillé",
+        "label": "negative"
+    },
+    {
+        "text": "tu es la prunelle de mes yeux",
+        "label": "positive"
+    },
+    {
+        "text": "C'est le weekend",
+        "label": "positive"
+    },
+    {
+        "text": "Tu files un mauvais coton",
+        "label": "negative"
+    },
+    {
+        "text": "viens je t'emmène",
+        "label": "positive"
+    },
+    {
+        "text": "partir un jour",
+        "label": "positive"
+    },
+    {
+        "text": "sans retour",
+        "label": "negative"
+    },
+    {
+        "text": "effacer",
+        "label": "negative"
+    },
+    {
+        "text": "notre amour",
+        "label": "positive"
+    },
+    {
+        "text": "sans se retourner",
+        "label": "positive"
+    },
+    {
+        "text": "ne pas regretter",
+        "label": "positive"
+    },
+    {
+        "text": "je ne suis pas fatigué",
+        "label": "positive"
+    },
+    {
+        "text": "Je suis malade",
+        "label": "negative"
+    },
+    {
+        "text": "je ne veux pas",
+        "label": "neutral"
+    },
+    {
+        "text": "Je ne vais pas voter",
+        "label": "positive"
+    },
+    {
+        "text": "tu ne vas pas tomber malade",
+        "label": "positive"
+    },
+    {
+        "text": "Je ne suis pas riche",
+        "label": "negative"
+    },
+    {
+        "text": "Je ne suis pas pauvre",
+        "label": "positive"
+    },
+    {
+        "text": "tu es pauvre",
+        "label": "negative"
+    },
+    {
+        "text": "tu es riche",
+        "label": "positive"
+    },
+    {
+        "text": "gros batard",
+        "label": "negative"
+    },
+    {
+        "text": "j'aime le cinema",
+        "label": "positive"
+    },
+    {
+        "text": "va chercher du lait",
+        "label": "neutral"
+    },
+    {
+        "text": "a bicyclette",
+        "label": "positive"
+    },
+    {
+        "text": "j'irai ou tu iras",
+        "label": "positive"
+    },
+    {
+        "text": "tout est chaos",
+        "label": "negative"
+    },
+    {
+        "text": "abimé",
+        "label": "negative"
+    },
+    {
+        "text": "Je cherche",
+        "label": "neutral"
+    },
+    {
+        "text": "aidez moi",
+        "label": "neutral"
+    }
 ]

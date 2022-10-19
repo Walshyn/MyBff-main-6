@@ -13,7 +13,7 @@ final class SentimentsRecognizer{
         case featuresMissing
     }
     
-    private let model = SentimentMdlFull()
+    private let model = sentimentMdl()
     private let options: NSLinguisticTagger.Options = [.omitWhitespace, .omitPunctuation, .omitOther]
     private lazy var tagger: NSLinguisticTagger = .init(
         tagSchemes: NSLinguisticTagger.availableTagSchemes(forLanguage: "fr"),

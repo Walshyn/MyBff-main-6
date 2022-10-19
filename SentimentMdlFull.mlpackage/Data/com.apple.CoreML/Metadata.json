@@ -1,0 +1,12 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "Model to categorize sentences by sentiments in each",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.version" : "12.6.0",
+    "com.apple.createml.app.tag" : "99.2",
+    "com.apple.coreml.model.preview.type" : "textClassifier",
+    "com.apple.createml.app.version" : "4.0"
+  },
+  "MLModelAuthorKey" : "Carme",
+  "MLModelLicenseKey" : "--"
+}
