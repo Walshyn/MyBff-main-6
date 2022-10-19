@@ -13,7 +13,7 @@ class FriendManager{
     
     
     // Normal Friend template
-    public func recoverOpenAIResponse(name : String = "Moi", prompt : String) -> String?{
+    public func recoverOpenAIResponse(name : String = "Moi", prompt : String, model : String = "text-davinci-002") -> String?{
         if(prompt.isEmpty){
             print(prompt.isEmpty)
             return ""

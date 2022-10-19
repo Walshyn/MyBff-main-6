@@ -49,7 +49,7 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate 
         }
         
         
-        
+        inputBar.inputTextView.text = ""
         messagesCollectionView.reloadData()
         self.messagesCollectionView.scrollToLastItem(animated: true)
     }
