@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyBff" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="sq3-mn-zfU">
+                                <rect key="frame" x="0.0" y="47" width="390" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sq3-mn-zfU" secondAttribute="height" multiplier="15:8" id="c1e-3e-o9V"/>
+                                </constraints>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DFa-Ix-2vc">
+                                <rect key="frame" x="0.0" y="265" width="390" height="545"/>
+                                <connections>
+                                    <segue destination="R0O-02-rur" kind="embed" identifier="chatsegue" id="TrZ-wb-HNd"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DFa-Ix-2vc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JWf-Pc-iuG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DFa-Ix-2vc" secondAttribute="trailing" id="OCR-uk-vdC"/>
+                            <constraint firstItem="sq3-mn-zfU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OY0-lR-deb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DFa-Ix-2vc" secondAttribute="bottom" id="Oiq-GX-XDk"/>
+                            <constraint firstItem="sq3-mn-zfU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="P6a-Us-e6D"/>
+                            <constraint firstItem="sq3-mn-zfU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hc3-cc-gph"/>
+                            <constraint firstItem="DFa-Ix-2vc" firstAttribute="top" secondItem="sq3-mn-zfU" secondAttribute="bottom" constant="10" id="xHe-PF-fI1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="avatarIA" destination="sq3-mn-zfU" id="hsT-Qw-nRD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30.769230769230766" y="-28.436018957345969"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="R2f-ip-l1P">
+            <objects>
+                <viewController id="R0O-02-rur" customClass="ChatViewController" customModule="MyBff" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0QV-nN-dE6">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="545"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p3u-Vv-dZx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="-454"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="happy" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
